@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li{
+    font-size: 30px;
+}
+
+header div{
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.box{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 8px
+
+}
+
+header nav ul li{
+    
+}
+
+
+/* HTML=Producto*/
+h1{
+    background-color: aliceblue;
+}
+
+
+.caja{
+    background-color: crimson;
+    width: 200px;
+    height: 150px;
+
+    margin: 10px;
+    padding: 80px;
+    box-sizing: border-box;
+
+    border: 3px solid blue; 
+}
+
+p{
+    background-color: aliceblue;
+}
+
+/* Ubicacion */
+
+header div.ubi{
+    text-align: left;
+}
+.loremGeneral{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+}
+
+.loremAyuda{
+    background-color: brown;
+}
+
+.art{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+}
+
+
+@media (max-width: 700px){
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.loremGeneral{
+    display: grid;
+    grid-template-columns:  100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    text-align: center;
+}
+body{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.productoGeneral{
+    display: grid;
+    grid-template-columns: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        
+    }
+}
+
+
